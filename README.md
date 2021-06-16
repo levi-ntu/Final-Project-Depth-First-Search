@@ -7,7 +7,7 @@
   * From top to bottom are 3, 2 and 1 in the above example.
   * When a node is put into stack, we record it as visited.
   * Suppose the node 3 is connected to 4 and 5. The route may be 1->2->3->4->3->5. 
-  * The stack works life 1 + 2 + 3 + 4 - 4 + 5.
+  * The stack works like 1 + 2 + 3 + 4 - 4 + 5.
   * Thus the order is 1,2,3,4,5.
 
 
